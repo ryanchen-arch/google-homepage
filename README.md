@@ -1,0 +1,1 @@
+create a webpage similar to google search and returns its search results when something is entered

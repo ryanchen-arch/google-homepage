@@ -8,6 +8,8 @@ img {
     left: 35.5%;
     top: 38%;
     width: 500px;
+    height: 35px;
+    border-radius: 30px;
 }
 .search-div {
     position: absolute;
@@ -23,20 +25,30 @@ img {
 .search-button:hover {
     border: 1px solid black;
 }
-.left {
-    float: left;
+.right {
+    float: right;
 }
 li {
-    float: right;
+    float: left;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #dddddd;
   }
-  li a {
-    display: block;
+li a {
+    display: inline-block;
     padding: 8px;
-  }
+    color: black;
+    text-decoration: none;
+}
+#navbot {
+    position: relative;
+    top: 850px;
+}
+#navmid {
+    position: relative;
+    top: 830px;
+    
+}
